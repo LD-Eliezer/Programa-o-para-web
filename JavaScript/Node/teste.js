@@ -1,0 +1,31 @@
+//console.log("Ola Node")
+const prompt = require("prompt-sync")();
+
+const nun1 = Number(prompt("Digite a Tabuada que deseja: "));
+const nun2 = Number(2);
+const nun3 = Number(3);
+const nun4 = Number(4);
+const nun5 = Number(5);
+const nun6 = Number(6);
+const nun7 = Number(7);
+const nun8 = Number(8);
+const nun9 = Number(9);
+const nun10 = Number(10);
+const t2 = nun1 * nun2;
+const t3 = nun1 * nun3;
+const t4 = nun1 * nun4;
+const t5 = nun1 * nun5;
+const t6 = nun1 * nun6;
+const t7 = nun1 * nun7;
+const t8 = nun1 * nun8;
+const t9 = nun1 * nun9;
+const t10 = nun1 * nun10;
+console.log(`${nun2}*${nun1}: ${t2}`);
+console.log(`${nun3}*${nun1}: ${t3}`);
+console.log(`${nun4}*${nun1}: ${t4}`);
+console.log(`${nun5}*${nun1}: ${t5}`);
+console.log(`${nun6}*${nun1}: ${t6}`);
+console.log(`${nun7}*${nun1}: ${t7}`);
+console.log(`${nun8}*${nun1}: ${t8}`);
+console.log(`${nun9}*${nun1}: ${t9}`);
+console.log(`${nun10}*${nun1}: ${t10}`);
