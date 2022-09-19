@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+/*Paleta de cores*/
+:root{
+    --azul-bebe:#BBE1FA ;
+    --azul: #3282B8;
+    --azul-escuro: #0F4C75;
+    --preto-azul: #1B262C;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*Background*/
+html, body{
+    margin: 0;
+    background: var(--preto-azul);
+}
+
+/*Fonte*/
+body, button, input, select, textarea{
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 44px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+
+h1, h2{
+    margin: 0;
+    font-weight: 500;
+}
+
+p{
+    color: white;
+}
+
+/*Botão de contato*/
+button{
+    color: var(--preto-azul);
+    background: var(--azul-bebe);
+    border: 0;
+    border-radius: 16px;
+    padding: 8px 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header{
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: center;
+}
+
+header .container{
+    width: 50%;
+    height: fit-content;
+    padding: 0 100px;
+}
+
+header .container img{
+    display: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    background: var(--preto-azul);
+    padding: 0 100px;
+    position: sticky;
+    top: 0;
+}
+
+nav img{
+    height: 55px;
+}
+
+nav ul a{
+    font-size: 24px;
+    color: var(--azul-bebe);
+    text-decoration: none;
+    margin: 0 25px;
+}
+
+section{
+    background:var(--azul);
+    height: 1000px;
+}
+
+@media(max-width:767px) {
+
+    header .container{
+        width: 100%;
+    }
+    header .container img{
+        display: inline;
+        height: 45px;
+        margin-bottom: 75px;
+    }
+    nav img{
+        display: none;
+    }
+}
