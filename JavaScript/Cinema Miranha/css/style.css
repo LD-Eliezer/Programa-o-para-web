@@ -1,0 +1,25 @@
+body {
+    background-color: #1B1C25;
+    color: #FFF;
+    margin-top: 3em;
+}
+
+.megatron {
+    height: 400px;
+}
+
+h1 {
+    border-bottom-style: inset;
+}
+
+figure {
+    display: inline-block;
+    font-size: 13px;
+    margin: 5px;
+    
+}
+
+img .poltrona {
+    width: 24px;
+    height: 16px;
+}
